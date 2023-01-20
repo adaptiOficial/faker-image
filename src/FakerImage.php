@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Faker;
+namespace Adapti\FakerImage;
 
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Facades\Storage;
