@@ -76,9 +76,7 @@ class FakerImage
     {
         $fullPath = $path . '/' . $this->getFileName();
 
-        Storage::disk($this->disk)->put($fullPath, ($image));
-
-        return $fullPath;
+        return Storage::disk($this->disk)->put($fullPath, ($image));
     }
 
     /**
