@@ -78,7 +78,7 @@ class FakerImage
 
         Storage::disk($this->disk)->put($fullPath, ($image));
 
-        return ($this->disk === 'public') ? "storage/$fullPath" : $fullPath;
+        return ($this->disk === 'public') ? "/storage/$fullPath" : "/$fullPath";
     }
 
     /**
