@@ -23,5 +23,5 @@ use Adapti\FakerImage\FakerImage;
 
 Exemplo de utilização:
 ```php
-(new FakerImage)->image('banner')
+(new FakerImage)->image('banner');
 ```
