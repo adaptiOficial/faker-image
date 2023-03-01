@@ -14,7 +14,7 @@ COMO USAR:
 
 - Em seguida, instale o pacote pelo composer:
 ```bash
-composer require adapti/faker-image
+composer require adapti/faker-image --dev
 ```
 - Agora é só usar o pacote importando a classe:
 ```php
