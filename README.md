@@ -3,16 +3,20 @@
 COMO USAR:
 
 - Em seu `composer.json` adicione o seguinte bloco de código:
-```
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/adaptiOficial/faker-image"
-        }
-    ],
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/adaptiOficial/faker-image"
+    }
+],
 ```
 
 - Em seguida, instale o pacote pelo composer:
 ```bash
-composer require ...
+composer require adapti/faker-image
+```
+- Agora é só usar o pacote importando a classe:
+```php
+use Adapti\FakerImage\FakerImage;
 ```
