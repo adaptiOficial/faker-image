@@ -20,3 +20,8 @@ composer require adapti/faker-image
 ```php
 use Adapti\FakerImage\FakerImage;
 ```
+
+Exemplo de utilização:
+```php
+(new FakerImage)->image('banner')
+```
